@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-03T11:00:58 IST" name="Default suite" finished-at="2025-12-03T11:01:06 IST" duration-ms="7186">
+  <suite started-at="2025-12-03T12:31:04 IST" name="Default suite" finished-at="2025-12-03T12:31:21 IST" duration-ms="17755">
     <groups>
     </groups>
-    <test started-at="2025-12-03T11:00:58 IST" name="Default test" finished-at="2025-12-03T11:01:06 IST" duration-ms="7186">
-      <class name="ex02_Selenium_Basics.TestSelenium_ProjectNo1">
-        <test-method signature="test_verify_text_katalon()[pri:0, instance:ex02_Selenium_Basics.TestSelenium_ProjectNo1@1e461e41]" started-at="2025-12-03T11:00:58 IST" name="test_verify_text_katalon" finished-at="2025-12-03T11:01:05 IST" duration-ms="7009" status="PASS">
+    <test started-at="2025-12-03T12:31:04 IST" name="Default test" finished-at="2025-12-03T12:31:21 IST" duration-ms="17755">
+      <class name="ex03_Selenium_Locators.TestSelenium19_Mini_Project2_TagNameCommonToAll">
+        <test-method signature="vwo_free_trail_error_verify()[pri:0, instance:ex03_Selenium_Locators.TestSelenium19_Mini_Project2_TagNameCommonToAll@63fbfaeb]" started-at="2025-12-03T12:31:04 IST" name="vwo_free_trail_error_verify" finished-at="2025-12-03T12:31:21 IST" duration-ms="17611" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_verify_text_katalon -->
-      </class> <!-- ex02_Selenium_Basics.TestSelenium_ProjectNo1 -->
+        </test-method> <!-- vwo_free_trail_error_verify -->
+      </class> <!-- ex03_Selenium_Locators.TestSelenium19_Mini_Project2_TagNameCommonToAll -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

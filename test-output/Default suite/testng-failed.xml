@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ex01_Selenium_Basics.TestSelenium01">
+      <class name="ex03_Selenium_Locators.TestSelenium19_Mini_Project2_TagNameCommonToAll">
         <methods>
-          <include name="test_code"/>
+          <include name="vwo_free_trail_error_verify"/>
         </methods>
-      </class> <!-- ex01_Selenium_Basics.TestSelenium01 -->
+      </class> <!-- ex03_Selenium_Locators.TestSelenium19_Mini_Project2_TagNameCommonToAll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
