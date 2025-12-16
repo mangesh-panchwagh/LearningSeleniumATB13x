@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class Dropdown {
@@ -22,21 +23,23 @@ public class Dropdown {
 	    
 		//driver.switchTo().frame(0);
 
-		 driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@src,'select-dropdown-menu')]")));
-		WebElement countryDropDown = driver.findElement(By.tagName("select"));
-		countryDropDown.click();
+		driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@src,'select-dropdown-menu')]")));
+		WebElement countryDropDown = driver.findElement(By.xpath("select"));
+		Select select = new Select(countryDropDown);
+		driver.findElement(By.xpath("select")).click();
+		select.selectByVisibleText("India");
 		
-		List<WebElement> countries = driver.findElements(By.tagName("options"));
-		/*
+		List<WebElement> countries = driver.findElements(By.tagName("option"));
+		
 		for(WebElement c : countries) {
 			System.out.println(c.getText());
 			
-			if(c.getText().equalsIgnoreCase("India")) {
+			/*if(c.getText().equalsIgnoreCase("India")) {
 				c.click();
-				break;
+				break;*/
 				
 		}
-		*/
+		
 		
 		for (WebElement option : countries) {
 	        if (option.getText().equalsIgnoreCase("India")) {

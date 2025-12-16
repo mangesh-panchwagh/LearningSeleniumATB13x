@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ex03_Selenium_Locators.TestProject">
+      <class name="ex031_Selenium_WebTables.test_web_table_OrangeHRM_Practice">
         <methods>
-          <include name="openURL"/>
+          <include name="printTableData"/>
         </methods>
-      </class> <!-- ex03_Selenium_Locators.TestProject -->
+      </class> <!-- ex031_Selenium_WebTables.test_web_table_OrangeHRM_Practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

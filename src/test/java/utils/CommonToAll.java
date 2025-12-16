@@ -1,8 +1,12 @@
 package utils;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 public class CommonToAll{
 	
 	public WebDriver driver;
@@ -24,5 +28,6 @@ public class CommonToAll{
 	public WebElement findElementByPartialText(WebDriver driver, String text) {
 		return driver.findElement(By.partialLinkText(text));
 	}
+	
 	
 }

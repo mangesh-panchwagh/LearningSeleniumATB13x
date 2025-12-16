@@ -85,6 +85,8 @@ public class TestProject {
 				String actualText = "Submitted Form Data";
 				String expectedText = driver.findElement(By.xpath("//h1[contains(text(),'Submitted Form Data')]")).getText();
 				Assert.assertEquals(actualText, expectedText);
+				
+				driver.switchTo().window(parentWindowHandle);
 			}
 	
 			

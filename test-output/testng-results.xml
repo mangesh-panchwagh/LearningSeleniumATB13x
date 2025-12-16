@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-12T13:49:48 IST" name="Default suite" finished-at="2025-12-12T13:49:58 IST" duration-ms="9578">
+  <suite started-at="2025-12-16T15:41:21 IST" name="Default suite" finished-at="2025-12-16T15:41:40 IST" duration-ms="19264">
     <groups>
     </groups>
-    <test started-at="2025-12-12T13:49:48 IST" name="Default test" finished-at="2025-12-12T13:49:58 IST" duration-ms="9578">
-      <class name="ex03_Selenium_Locators.TestProject">
-        <test-method signature="openURL()[pri:0, instance:ex03_Selenium_Locators.TestProject@32c726ee]" started-at="2025-12-12T13:49:48 IST" name="openURL" finished-at="2025-12-12T13:49:58 IST" duration-ms="9311" status="PASS">
+    <test started-at="2025-12-16T15:41:21 IST" name="Default test" finished-at="2025-12-16T15:41:40 IST" duration-ms="19264">
+      <class name="ex05_Selenium_Waits.TestSelenium24_MiniProject4">
+        <test-method signature="testCloseModal()[pri:0, instance:ex05_Selenium_Waits.TestSelenium24_MiniProject4@ab7395e]" started-at="2025-12-16T15:41:21 IST" name="testCloseModal" finished-at="2025-12-16T15:41:40 IST" duration-ms="18977" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openURL -->
-      </class> <!-- ex03_Selenium_Locators.TestProject -->
+        </test-method> <!-- testCloseModal -->
+      </class> <!-- ex05_Selenium_Waits.TestSelenium24_MiniProject4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
