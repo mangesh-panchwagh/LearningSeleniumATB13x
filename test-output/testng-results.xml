@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-16T15:41:21 IST" name="Default suite" finished-at="2025-12-16T15:41:40 IST" duration-ms="19264">
+  <suite started-at="2025-12-16T17:47:43 IST" name="Default suite" finished-at="2025-12-16T17:47:50 IST" duration-ms="6799">
     <groups>
     </groups>
-    <test started-at="2025-12-16T15:41:21 IST" name="Default test" finished-at="2025-12-16T15:41:40 IST" duration-ms="19264">
-      <class name="ex05_Selenium_Waits.TestSelenium24_MiniProject4">
-        <test-method signature="testCloseModal()[pri:0, instance:ex05_Selenium_Waits.TestSelenium24_MiniProject4@ab7395e]" started-at="2025-12-16T15:41:21 IST" name="testCloseModal" finished-at="2025-12-16T15:41:40 IST" duration-ms="18977" status="PASS">
+    <test started-at="2025-12-16T17:47:43 IST" name="Default test" finished-at="2025-12-16T17:47:50 IST" duration-ms="6799">
+      <class name="ex08_SVG_Elements.test_India_map_SVG">
+        <test-method signature="test_India_map_SVG()[pri:0, instance:ex08_SVG_Elements.test_India_map_SVG@45312be2]" started-at="2025-12-16T17:47:43 IST" name="test_India_map_SVG" finished-at="2025-12-16T17:47:50 IST" duration-ms="6527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCloseModal -->
-      </class> <!-- ex05_Selenium_Waits.TestSelenium24_MiniProject4 -->
+        </test-method> <!-- test_India_map_SVG -->
+      </class> <!-- ex08_SVG_Elements.test_India_map_SVG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

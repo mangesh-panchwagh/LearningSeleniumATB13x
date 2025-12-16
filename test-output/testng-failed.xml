@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ex031_Selenium_WebTables.test_web_table_OrangeHRM_Practice">
+      <class name="ex08_SVG_Elements.Lab30_SVG">
         <methods>
-          <include name="printTableData"/>
+          <include name="test_Flipkart_Search_ICON"/>
         </methods>
-      </class> <!-- ex031_Selenium_WebTables.test_web_table_OrangeHRM_Practice -->
+      </class> <!-- ex08_SVG_Elements.Lab30_SVG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
